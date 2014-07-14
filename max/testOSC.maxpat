@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 184.0, 585.0, 34.0, 20.0 ],
-					"presentation_rect" : [ 282.0, 654.0, 0.0, 0.0 ],
 					"text" : "print"
 				}
 
@@ -50,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 585.0, 137.0, 20.0 ],
-					"presentation_rect" : [ 208.0, 656.0, 0.0, 0.0 ],
 					"text" : "udpsend localhost 9001"
 				}
 
@@ -977,7 +975,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 3 ],
+					"destination" : [ "obj-36", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-72", 0 ]
