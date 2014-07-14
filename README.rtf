@@ -1,10 +1,42 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf200
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww8760\viewh13140\viewkind0
+\paperw11900\paperh16840\margl1440\margr1440\vieww10220\viewh12700\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\f0\b\fs24 \cf0 Command line options\
+\f0\b\fs24 \cf0 Current status of development
+\b0 \
+
+\b --------------------------------------------\
+
+\b0 Right now the OSC is connecting and seems to work\
+But blender is complaining when trying to move the camera using "dLoc()"\
+we need to fix that error\
+
+\b \
+\
+OSC
+\b0 \
+
+\b ------
+\b0 \
+To run OSC in blender we will need to:\
+
+\b 	\'95 NO need to install osc python files in blender python paths
+\b0 \
+OSC is loaded if it is at the same level of the blender file.\
+\
+I found an OSC compatible with python 3:\
+
+\b http://wiki.labomedia.org/index.php/Communication_entre_Pure-data_et_Blender_en_OSC#La_structure_du_dossier\
+
+\b0 it is downloaded on the max folder
+\b \
+\
+	\'95 add sensor "Allways" in camera_empty to call the script\
+\
+\
+Command line options\
 --------------------------------\
 
 \b0 \
@@ -28,4 +60,33 @@ http://wiki.blender.org/index.php/Doc:2.6/Manual/Render/Command_Line\
      -g fixedtime        Run on 50 hertz without dropping frames\
      -g vertexarrays     Use Vertex Arrays for rendering (usually faster)\
      -g nomipmap     No Texture Mipmapping\
-     -g linearmipmap     Linear Texture Mipmapping instead of Nearest (default)}
+     -g linearmipmap     Linear Texture Mipmapping instead of Nearest (default)\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
