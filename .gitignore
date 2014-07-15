@@ -12,7 +12,7 @@ obj/
 Debug*/
 Release*/
 *.mode*
-*.app/
+#*.app/
 *.pyc
 .svn/
 
@@ -91,7 +91,6 @@ Desktop.ini
 *.sqlite
 
 # My ignores
-data/
 soft/
 BlenderFiles/oldFiles/
 
